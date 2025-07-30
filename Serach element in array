@@ -1,0 +1,29 @@
+// Bhumika Ulangwar
+// 24070123030 
+// ENTC A1 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5] = {20, 30, 40 , 50 ,33};  
+    int search;
+    cout<<" enter number to be searched: ";
+    cin>>search;
+    for (int i=0; i<5;i++){
+        if ( search==arr[i]){
+            cout<<"element found\n";
+            cout<<"element is:"<<i;
+            return 0;
+            
+       }
+        
+    }
+  cout<<"element not found";
+  return 0;
+}
+
+//ouput
+enter number to be searched: 40
+element found
+element is:2
