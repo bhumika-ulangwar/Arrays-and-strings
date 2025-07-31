@@ -1,0 +1,32 @@
+// Bhumika Ulangwar
+// 24070123030
+// ENTC A1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string str;
+    cout<<"enter string:";
+    cin>>str;
+    string reversed="";
+    
+    int i;
+    for(i=str.length()-1;i>=0;i--){
+       reversed+=str[i];
+    }
+     if(str == reversed){
+         cout<<"it is palindrome";
+    
+     }
+     else{
+         cout<<"it is not palindrome";
+     }
+    
+
+    return 0;
+}
+
+//output
+enter string:madam
+it is palindrome
