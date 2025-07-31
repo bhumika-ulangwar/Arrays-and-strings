@@ -1,0 +1,19 @@
+// Bhumika Ulangwar
+// 24070123030
+// Entc A1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string str1 = "SIT";
+    string str2 = "PUNE";
+
+    string concat = str1 + " " + str2;  // concatenation
+    cout << "Full Name: " << concat;
+
+    return 0;
+}
+
+//output
+Full Name: SIT PUNE
