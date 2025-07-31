@@ -9,7 +9,7 @@ int main() {
     string str1 = "SIT";
     string str2 = "PUNE";
 
-    string concat = str1 + " " + str2;  // concatenation
+    string concat = str1 + " " + str2;  
     cout << "Full Name: " << concat;
 
     return 0;
