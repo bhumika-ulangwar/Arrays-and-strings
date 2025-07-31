@@ -1,0 +1,25 @@
+// Name - Bhumika Ulangwar
+// PRN - 24070123030
+// Batch - EnTC - A1 
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int arr[5] = {7, 14, 21, 28, 35};
+
+    cout << "Reversed array: ";
+    for (int i = 4; i >= 0; i--) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+    
+}
+
+//output
+
+Reversed array: 35 28 21 14 7 
+
