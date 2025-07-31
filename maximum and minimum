@@ -1,0 +1,32 @@
+// Name - Bhumika Ulangwar
+// PRN - 24070123030
+// Batch - EnTC - A1 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5] = {25, 10, 45, 5, 30};
+    int n = 5;
+
+    int max = arr[0];
+    int min = arr[0];
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+    }
+
+    cout << "Maximum value = " << max << endl;
+    cout << "Minimum value = " << min << endl;
+
+    return 0;
+}
+
+//output
+Maximum value = 45
+Minimum value = 5
