@@ -1,9 +1,9 @@
 # Arrays-and-strings
 
-## 🎯 Aim
+##  Aim
 To study the concepts of arrays and strings in C++ and implement basic operations.
 
-## 📌 Objectives
+##  Objectives
 - Understand the declaration, initialization, and traversal of arrays and strings in C++.
 - Perform common array operations:
   - Searching
@@ -16,45 +16,45 @@ To study the concepts of arrays and strings in C++ and implement basic operation
   - Palindrome checking
 - Enhance basic problem-solving skills using arrays and strings.
 
-## 📚 Theory
+##  Theory
 
-### 🧩 Arrays in C++
+###  Arrays in C++
 An array is a **linear data structure** that stores multiple elements of the same data type in contiguous memory locations.  
 Each element is accessed using an **index (0-based)**.
 
-#### 🔸 Types of Arrays
+####  Types of Arrays
 - **One-Dimensional Array**  
   `int arr[5] = {1, 2, 3, 4, 5};`
 - **Two-Dimensional Array**  
   `int matrix[2][3] = {{1, 2, 3}, {4, 5, 6}};`
 
-#### 🔹 Common Operations on Arrays
+####  Common Operations on Arrays
 - **Traversal** – Access elements using loops  
 - **Searching** – Linear or binary search  
 - **Aggregation** – Sum, average, min, max  
 - **Insertion/Deletion** – Done manually (in static arrays)
 
-#### ✅ Advantages
+####  Advantages
 - Easy and fast access with index  
 - Simple declaration and use  
 
-#### ❌ Limitations
+####  Limitations
 - Fixed size  
 - Costly insert/delete operations  
 
-### ✨ Strings in C++
+###  Strings in C++
 Strings are sequences of characters used to store and manipulate text.
 
-#### 🅰️ C-Style Strings
+####  C-Style Strings
 Defined as character arrays ending with `\0`  
 Example: `char name[] = "Mishree";`
 
-#### 🅱️ C++ Strings (STL `string`)
+####  C++ Strings (STL `string`)
 Introduced via `<string>` header  
 More powerful and object-oriented  
 Example: `string name = "Mishree";`
 
-### 📑 Common String Functions
+###  Common String Functions
 
 | Function     | Syntax                  | Description                          | Example                        |
 |--------------|-------------------------|--------------------------------------|--------------------------------|
@@ -72,12 +72,12 @@ Example: `string name = "Mishree";`
 | `c_str()`    | `str.c_str()`           | Converts to C-style string           | Used with legacy C functions  |
 | `reverse()`  | `reverse(str.begin(), str.end())` | Reverses string               | `"abc"` → `"cba"`             |
 
-### 🔁 String Operations
+###  String Operations
 - **Concatenation**: Using `+` or `.append()`
 - **Reversal**: Using loop or `reverse()` function
 - **Palindrome Check**: Compare original and reversed string
 
-### ⚖️ Arrays vs Strings Comparison
+###  Arrays vs Strings Comparison
 
 | Feature               | C-style String (`char[]`) | C++ `string` Class     |
 |-----------------------|---------------------------|-------------------------|
@@ -121,12 +121,12 @@ Example: `string name = "Mishree";`
 - Compare characters from both ends  
 - Or reverse and compare with original
 
-## 🔑 Concepts Used
+##  Concepts Used
 - Array Traversal & Manipulation
 - String Handling (C-style & C++ style)
 - Loops (`for`, `while`)
 - Conditional Statements (`if-else`)
 - String Functions from `<string>` and `<algorithm>`
 
-## 🧠 Conclusion
+##  Conclusion
 This experiment helped us explore one of the most fundamental concepts in C++: arrays and strings. By implementing common operations like traversal, search, sum, and string manipulation, we strengthened our understanding of data storage and manipulation. We also compared C-style and modern C++ strings, and understood the importance of string handling in real-world applications. These skills form the basis for more advanced topics in programming and data structures.
